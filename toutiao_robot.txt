@@ -1,0 +1,19 @@
+def a(c):
+    if c == 1:
+        return 1
+    else:
+        return 3
+
+
+print(a(1))
+#27
+print(get_page(20))
+#22
+def main(offset):
+    json = get_page(offset)
+    for item in get_images(json):
+        print(item)
+
+
+main(20)
+#41
